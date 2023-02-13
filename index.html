@@ -1,0 +1,48 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <script src="index.js" type="module"></script>
+    
+    <header>
+        <div class="header">
+            <h1>Jimmy’s Diner</h1>
+            <p>The best burgers and pizzas in town.</p>
+        </div>
+    </header>
+    <main>
+        <section>
+        <div class="feed" id="feed">
+        
+        </div>
+    </section>
+    <section class="price-modal">
+        <h3>Your order</h3>
+        <div class="items">
+            <p class="price-item">Item</p>
+            <button class="remove-btn"></button>
+            <p class="price-price"></p>
+        </div>
+        <div class="checkout-price">
+            <h3>Total Price</h3>
+        <p></p>
+        </div>
+        <button class="checkout-btn">Complete order</button>
+    </section>
+    </main>
+    <aside class="checkout-modal">
+        <form action="">
+            <h3>Enter card details</h3>
+            <input type="text" placeholder="Enter your name" required>
+            <input type="tel" name="card-number" id="card-number" required placeholder="Enter card number"
+            inputmode="numeric" maxlength="19">
+            <input type="tel" name="ccv" id="ccv" required placeholder="CCV">
+            <button class="checkout-btn" type="submit">Pay</button>
+        </form>
+    </aside>
+    </body>
+</html>
